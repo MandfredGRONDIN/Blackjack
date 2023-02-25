@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   font-family: "Irish Grover", cursive;
+}
+/* Utilités */
+.d-flex {
+   display: flex;
+}
+.text-align-center {
+   text-align: center;
+}
+.justify-content-center {
+   justify-content: center;
+}
+.justify-content-evenly {
+   justify-content: space-evenly;
+}
+.align-items-center {
+   align-items: center;
+}
+.col-flex {
+   flex-direction: column;
+}
+.wrap-flex {
+   flex-wrap: wrap;
+}
+.position-absolute {
+   position: absolute;
+}
+.position-relative {
+   position: relative;
+}
+.w-50 {
+   width: 50%;
+}
+.w-25 {
+   width: 25%;
+}
+.w-100 {
+   width: 100%;
+}
+.m-auto {
+   margin: auto;
+}
+/*  */
+.home {
+   background: url("../assets/Home.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   height: 100vh;
+}
+h1 {
+   font-size: 212px;
+   color: #cef777;
+   -webkit-text-stroke: 1px #fb0707;
+}
