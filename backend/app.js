@@ -1,4 +1,5 @@
 const express = require("express");
+const userRoutes = require("./routes/user");
 require("dotenv").config({ path: "./config/.env" });
 require("./config/db");
 
@@ -22,5 +23,8 @@ app.use((req, res, next) => {
 
 // Transformer en json
 app.use(express.json());
+
+// Routes Authentification
+app.use("/api/auth", userRoutes);
 
 module.exports = app;
