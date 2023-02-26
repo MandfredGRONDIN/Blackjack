@@ -13,6 +13,7 @@ const userSchema = mongoose.Schema({
    },
    email: { type: String, required: true, unique: true },
    password: { type: String, required: true },
+   solde: { type: Number, default: 250 },
 });
 
 userSchema.plugin(uniqueValidator);
