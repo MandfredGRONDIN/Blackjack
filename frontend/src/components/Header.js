@@ -22,7 +22,7 @@ export default function Header() {
    }, [userId, dataUser.solde]);
 
    return (
-      <div className="header background-primary d-flex align-items-baseline justify-content-between">
+      <header className="header background-primary d-flex align-items-baseline justify-content-between">
          <div className="w-25">Solde {dataUser.solde}€</div>
          <div className="d-flex w-25 text-align-center justify-content-evenly align-items-baseline">
             <div className="i__header d-flex justify-content-center align-items-center">
@@ -30,6 +30,6 @@ export default function Header() {
             </div>
             <div>{dataUser.pseudo}</div>
          </div>
-      </div>
+      </header>
    );
 }

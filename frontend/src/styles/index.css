@@ -61,6 +61,12 @@
    color: #cef777;
    -webkit-text-stroke: 1px #fb0707;
 }
+.background-title {
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+}
 /*  */
 /* Home */
 .home {
